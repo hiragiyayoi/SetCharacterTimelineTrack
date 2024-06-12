@@ -1,4 +1,4 @@
-# SetCharacterTimelineTrack
+# スプライト操作用カスタムトラック
 
 ## 概要
 UnityのTimelineで任意のSpriteを操作するカスタムトラックです。
