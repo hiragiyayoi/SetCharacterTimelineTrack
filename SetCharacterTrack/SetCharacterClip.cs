@@ -4,15 +4,13 @@ using UnityEngine.Playables;
 using UnityEngine.Timeline;
 using UnityEngine.UIElements;
 using UnityEditor;
-using Alchemy;
-using Alchemy.Inspector;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
 using UnityEngine.UI;
 
 namespace Menu.Runtime.TalkingTrack
 {
-    [Serializable, DisableAlchemyEditor]
+    [Serializable]
     public class SetCharacterClip : PlayableAsset, ITimelineClipAsset
     {
         public ClipCaps clipCaps => ClipCaps.None;
