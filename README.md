@@ -7,7 +7,7 @@ Unityのノベルゲーム向けのカスタムトラックのライブラリを
 
 ## 特徴
 - 任意のRowImagのPosition、Scaleをクリップより制御可能
-- キャラ、背景関係なくSpriteなら制御可能
+- キャラ、背景関係なくTextureを制御可能
 - 同時に表示するSpriteの数は無制限（ハードウェアのリソースに依存する）
 - 差分切り替えが容易である。
 
@@ -51,7 +51,7 @@ ClipのInspectorには以下の変数が存在します。
 
 ![image](https://github.com/hiragiyayoi/SetCharacterTimelineTrack/assets/84854644/29d042f4-bbc2-46a9-8350-a47379d7b373)
 
-- Character Texture：任意のスプライトを選択する。
+- Character Texture：任意のTextureを選択する。
 例：3の場合、3フレームに１回最大表示文字数が増加する。
 - Positon：スプライトのTransformのPositionを変更する。
 - Scale：スプライトのTransformのScaleを変更する。
